@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key = "@string/billing"
+        android:defaultValue="1"
+        android:dialogTitle="@string/billing_title"
+        android:entries="@array/billing"
+        android:entryValues="@array/billing"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/ok"
+        android:summary="@string/billing_summary"
+        android:title="@string/billing_title" />
+
+    <EditTextPreference
+        android:key="@string/phNumber"
+        android:dialogMessage="@string/number_summary"
+        android:dialogTitle="@string/number"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/ok"
+        android:summary="@string/number_summary"
+        android:title="@string/number" />
+    <ListPreference android:summary="@string/type_summary" android:entries="@array/type" android:dialogTitle="@string/type_title" android:entryValues="@array/type" android:title="@string/type_title" android:key="@string/type"/>
+
+</PreferenceScreen>

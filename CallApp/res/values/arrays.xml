@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="billing">
+        <item >Per-minute</item>
+        <item >Per-second</item>
+    </string-array>
+    <string-array name="type">
+        <item>Incoming</item>
+        <item>Outgoing</item>
+        <item>All</item>
+    </string-array>
+</resources>
